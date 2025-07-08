@@ -52,7 +52,7 @@ def shell():
 def config():
     global client, ip, port
     
-    ip = '192.168.100.2'
+    ip = 'dirección ip (ifconfig)'
     port = 5678
     
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

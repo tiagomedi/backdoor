@@ -34,7 +34,7 @@ def config():
     global server, target, ip, port
 
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    ip = '192.168.100.2'
+    ip = 'dirección ip (ifconfig)'
     port = 5678
     
     server.bind((ip, port))
